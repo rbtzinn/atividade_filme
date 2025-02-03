@@ -118,7 +118,22 @@ body::before {
 
 .cast__list {
     list-style: none;
-    display: flex
+    display: flex;
+}
+
+.cast__list img {
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.cast__list img:hover {
+    transform: scale(1.05);
+}
+
+
+.cast__list a {
+    text-decoration: none;
+    color: #ddd;
 }
 
 
